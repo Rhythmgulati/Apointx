@@ -13,7 +13,7 @@ function Navbar() {
           <li className='py-1'>HOME</li>
           <hr className='border-none outline-none h-0.5 bg-amber-400 w-3/5 m-auto hidden'/>
         </NavLink>
-        <NavLink to="/alldoctors">
+        <NavLink to="/doctors">
           <li className='py-1'>ALL DOCTORS</li>
           <hr className='border-none outline-none h-0.5 bg-amber-400 w-3/5 m-auto hidden'/>
         </NavLink>

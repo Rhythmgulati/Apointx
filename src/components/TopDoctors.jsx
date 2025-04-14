@@ -1,9 +1,9 @@
-import React from 'react'
-import { doctors } from '../assets/assets'
+import React, { useContext } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import AppContext from '../context/AppContext';
 
 function TopDoctors() {
-
+  const {doctors} = useContext(AppContext);
   const navigate = useNavigate();
 
   return (
